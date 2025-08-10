@@ -1,0 +1,41 @@
+{
+    "player": {
+        "health": 63,
+        "strength": 30,
+        "inventory": {
+            "or": 47,
+            "pierres": 16,
+            "parchemins anciens": 24,
+            "bois": 26,
+            "herbes médicinales": 27,
+            "baies empoisonnées": 22,
+            "perles": 8,
+            "algues luminescentes": 4,
+            "minerai de fer": 22,
+            "cristaux de glace": 33
+        }
+    },
+    "current_location": "Forêt Maudite",
+    "allies": [
+        "Arwen",
+        "Arwen",
+        "Eldrin"
+    ],
+    "quests": [
+        {
+            "nom": "L'Herbe de Vie",
+            "lieu": "Forêt Maudite",
+            "description": "Récupère 10 unités d'herbes médicinales pour guérir un villageois malade.",
+            "objectif": {
+                "type": "collecter",
+                "ressource": "herbes médicinales",
+                "quantite": 10
+            },
+            "recompense": {
+                "type": "force",
+                "quantite": 3
+            },
+            "progression": 8
+        }
+    ]
+}
